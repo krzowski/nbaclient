@@ -1,0 +1,47 @@
+.team-list {
+  display: flex;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.3);
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.team-list-name {
+  width: 44%;
+  font-size: 16px;
+  padding-left: 40px;
+}
+.team-list-favorite,
+.team-list-schedule {
+  width: 28%;
+  text-align: center;
+  font-size: 14px;
+}
+.team-list-name,
+.team-list-favorite,
+.team-list-schedule {
+  line-height: 40px;
+  vertical-align: center;
+}
+.team-list-favorite button {
+  font-size: inherit;
+  background-color: inherit;
+  color: inherit;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.team-list-favorite button:hover {
+  color: #8CB2C3;
+}
+
+@media (max-width: 660px) {
+  .team-list-name {
+    font-size: 15px;
+  }
+  .team-list-favorite,
+  .team-list-schedule{
+    font-size: 13px;
+  }
+}

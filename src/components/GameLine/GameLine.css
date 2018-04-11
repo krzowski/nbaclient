@@ -1,0 +1,62 @@
+.game {
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.game ul {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.game ul li {
+  height: 100%;
+  text-align: center;
+}
+.team {
+  width: 30%;
+  padding-top: 10px;
+}
+.team span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  line-height: 100%;
+}
+.schedule-team-name {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.team-record {
+  font-size: 11px;
+}
+
+.score {
+  font-size: 16px;
+  width: 10%;
+}
+.game-or-date {
+  text-align: center;
+  width: 20%;
+  font-size: 13px;
+}
+.game-at {
+  text-align: center;
+  width: 10%;
+  font-size: 14px;
+}
+.schedule-info{
+  display: block;
+  height: 100%;
+  width: 20%;
+  padding: 5px 0 0;
+}
+.schedule-time,
+.schedule-date{
+line-height: 20px;
+font-size: 13px;
+display: block;
+}

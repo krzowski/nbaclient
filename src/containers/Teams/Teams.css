@@ -1,0 +1,7 @@
+.teams-list {
+  display: block;
+  width: 90%;
+  max-width: 600px;
+  margin: 60px auto 0;
+  height: 200px;
+}

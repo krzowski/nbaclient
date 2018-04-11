@@ -1,0 +1,12 @@
+.error-container {
+  width: 300px;
+  text-align: center;
+  margin: 70px auto;
+}
+.error-button {
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  padding: 5px 20px;
+  cursor: pointer;
+}

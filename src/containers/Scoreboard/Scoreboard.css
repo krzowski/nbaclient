@@ -1,0 +1,55 @@
+/* nav */
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  max-width: 400px;
+  margin: 60px auto 40px;
+}
+.nav div {
+  width: 100%;
+}
+.nav-yesterday {text-align: left;}
+.nav-date      {text-align: center;}
+.nav-tomorrow  {text-align: right;}
+
+/* games listing */
+.games {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 600px;
+}
+
+.no-games {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.scoreboard-info {
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 30px;
+  vertical-align: center;
+}
+
+.scoreboard-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.scoreboard-info-color {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  margin-right: 5px;
+}
+.espn-standings {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  margin: 30px auto 50px;
+}

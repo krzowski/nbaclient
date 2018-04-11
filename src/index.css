@@ -1,0 +1,35 @@
+.root {
+  min-width: 600px;
+}
+
+
+body {
+  color: #e4e9eb;
+  font-family: Geneva, sans-serif;
+  background:
+  linear-gradient(135deg, #2E2521 22px, #333333 22px, #333333 24px, transparent 24px, transparent 67px, #333333 67px, #333333 69px, transparent 69px),
+  linear-gradient(225deg, #2E2521 22px, #333333 22px, #333333 24px, transparent 24px, transparent 67px, #333333 67px, #333333 69px, transparent 69px)0 64px;
+  background-color: #2E2521;
+  background-size: 64px 128px;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #e4e9eb;
+  text-decoration: none;
+}
+a:hover {
+  color: #8CB2C3;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.team-favorite {
+  background-color: #203d4099 !important;
+}

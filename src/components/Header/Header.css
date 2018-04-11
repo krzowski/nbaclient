@@ -1,0 +1,32 @@
+.header {
+  display: block;
+  height: 60px;
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20%;
+  background-color: #2E2521;
+  box-shadow: 0 0 16px #000;
+}
+.header a {
+  display: block;
+  height: 80%;
+  text-align: center;
+}
+.header a:last-child {
+  border-right: none;
+}
+.header a span {
+  line-height: 48px;
+  vertical-align: center;
+}
+
+@media (max-width: 960px) {
+  .header {
+    padding: 0;
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,35 @@
+.standings-table {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 13px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 10px;
+}
+.standings-table thead th {
+  padding-bottom: 5px;
+  font-size: 14px; 
+}
+.standings-table tbody tr:nth-child(2n-1) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.standings-table tbody tr:nth-child(8) td{
+  border-bottom: 1px solid #AAA;
+}
+.standings-table tbody tr td {
+  padding: 5px 5px;
+}
+.standings-team-number {
+  width: 10%;
+  text-align: center;
+}
+.standings-team-name,
+.standings-table tbody tr td.standings-team-name {
+  width: 60%;
+  padding-left: 20px;
+  text-align: left;
+}
+.standings-team-record {
+  width: 20%;
+  text-align: center;
+}

@@ -1,0 +1,49 @@
+/* box score */
+.boxscore {
+  margin: 100px auto;
+}
+.boxscore h3 {
+  margin: 35px 0 15px 10%;
+}
+.boxscore .game {
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.boxscore .game {
+  margin: 20px 50px 80px;
+}
+.boxscore .team {
+  padding: 0;
+  margin: 0;
+}
+.boxscore .game ul {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.boxscore .game ul li {
+  height: 100%;
+  text-align: center;
+}
+.boxscore .team {
+  width: 30%;
+}
+.boxscore .score {
+  font-size: 20px;
+  width: 10%;
+}
+.boxscore .game-at {
+  text-align: center;
+  width: 10%;
+}
+
+
+@media (max-width: 760px) {
+  .boxscore table {
+    width: 100%;
+  }
+}

@@ -1,0 +1,12 @@
+export const FAVORITE_TEAM = 'FAVORITE_TEAM';
+export const UNFAVORITE_TEAM = 'UNFAVORITE_TEAM';
+export const SET_TEAMS = 'SET_TEAMS';
+export const BEGIN_GETTING_TEAMS_DATA = 'BEGIN_GETTING_TEAMS_DATA';
+export const NO_TEAMS_DATA = 'NO_TEAMS_DATA';
+export const TEAMS_LOAD_ERROR = 'TEAMS_LOAD_ERROR';
+
+export const LOGIN = 'LOGIN';
+export const SIGNOUT = 'SIGNOUT';
+export const AUTH_ERROR = 'AUTH_ERROR';
+export const REMOVE_ERROR = 'REMOVE_ERROR';
+export const INITIAL_AUTH_CHECK = 'INITIAL_AUTH_CHECK';

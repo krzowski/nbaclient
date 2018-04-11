@@ -1,0 +1,35 @@
+.boxscore-table {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 13px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+}
+.boxscore-table thead th {
+  padding-bottom: 5px;
+  font-size: 13px;
+  color: #CCC;
+}
+.boxscore-table tbody tr:nth-child(2n-1) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.boxscore-table td {
+  padding: 4px 0;
+}
+.boxscore-table td.boxscore-name {
+  width: 20%;
+}
+.boxscore-table td.boxscore-stat {
+  text-align: right;
+  padding-right: 1%;
+}
+.boxscore-table td.boxscore-dnp {
+  text-align: center;
+}
+.boxscore-team {
+  font-weight: bold;
+}
+.boxscore-bench tr th {
+  padding-top: 10px;
+}
