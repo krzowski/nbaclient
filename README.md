@@ -33,10 +33,13 @@ with any of test credentials:
 ----
 ## local setup
 
+download the code:
 
-Download ---to-be-checked---. Navigate to root folder and install node modules with:
+    git clone https://github.com/krzowski/react-nbaclient.git
 
-    npm install
+Navigate to root folder and install node modules with:
+
+    cd react-nbaclient/ && npm install
 
 start server with:
 
