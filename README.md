@@ -17,12 +17,12 @@ NBA Client was created using the following libraries:
 
 ---
 Note: as it is a pet project, NBA Client accesses an open [thesportsdb API](https://www.thesportsdb.com/) to get the NBA data, but the range of data is limited. 
-Unfortunately there is no public API to get NBA standings/full team schedules/box scores(/full playoffs schedule?) that would allow [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS). 
+Unfortunately there is no public API to get NBA standings/full team schedules/box scores/full playoffs schedule that would allow [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS). Due to this fact playoffs box score espn links also won't work.
 
 
 ---
 ## try it out
-with any of test credentials:
+visit [project's website](http://oldakowski.eu/nbaclient/) and try any of the test credentials:
 
 * email: dummy@example.com, password:qwerty
 * email: dummy2@example.com, password:qwerty
