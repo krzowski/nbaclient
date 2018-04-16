@@ -66,7 +66,6 @@ class Scoreboard extends Component {
     if (this.state.gameInfoArray !== null) {
       espnInfo = (
         <div className="scoreboard-info" key="uniquekey">
-          <p>Clicking on games will direct to full ESPN's box scores.</p>
           <p className="scoreboard-flex"><span className="scoreboard-info-color team-favorite"></span> <span>indicates favorite teams</span></p>
         </div>
       )

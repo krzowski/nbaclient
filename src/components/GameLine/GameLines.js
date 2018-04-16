@@ -18,12 +18,7 @@ const gameLines = props => {
         homeFavorite={ props.teams[gameInfo.strHomeTeam].favorite }
       />
     )
-    const espnBoxScoreLink = 'http://www.espn.com/nba/boxscore?gameId=' + (parseInt(gameInfo.idEvent, 10) + 400436618);
-    return (
-      <a href={espnBoxScoreLink} key={gameInfo.idEvent}>
-        { gameLine }
-      </a>
-    ) 
+    return gameLine;
   } )
 
   return games;
